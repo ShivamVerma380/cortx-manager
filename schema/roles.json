@@ -41,6 +41,7 @@
             "activities": ["create", "read", "update"]
         }
     },
+    
     "monitor": {
         "permissions": {
             "permissions": ["list"],
