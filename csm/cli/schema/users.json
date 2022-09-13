@@ -63,7 +63,8 @@
           "choices": [
             "monitor",
             "manage",
-            "admin"
+            "admin",
+            "test"
           ],
           "params": true
         },
