@@ -243,6 +243,9 @@ class SessionFactory:
         }
         try:
             # Reading Config file for storage and backend
+            Log.d("\nCSM_GLOBAL_INDEX",const.CSM_GLOBAL_INDEX)
+            Log.d("\nSESSION_BACKEND_KEY",const.SESSION_BACKEND_KEY)
+            Log.d("\nSESSION_STORAGE_KEY",const.SESSION_STORAGE_KEY)
             storage = Conf.get(const.CSM_GLOBAL_INDEX, const.SESSION_STORAGE_KEY)
             backend = Conf.get(const.CSM_GLOBAL_INDEX, const.SESSION_BACKEND_KEY)
             storage_backend = session_backend_keys[storage][backend]
